@@ -2,6 +2,8 @@ import React from 'react'
 import styles from "./Landing.module.css"
 import Navbar from "../../components/Navbar"
 
+// @desc Website Landing page
+// @route /
 function Landing() {
   return (
     <div>
