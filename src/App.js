@@ -1,4 +1,5 @@
 import Landing from './pages/Landing';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
