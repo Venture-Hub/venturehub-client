@@ -2,8 +2,6 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 
 
-// @desc Website Landing page
-// @route /
 function Landing() {
   return (
     <>
