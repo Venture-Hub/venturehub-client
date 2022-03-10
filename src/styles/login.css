@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Meie+Script&display=swap");
+
+.hFull {
+  height: 100%;
+}
+
+.tagline {
+  font-family: "Meie Script";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 51px;
+  font-size: 40px;
+}
+
+h1,
+p,
+label {
+  color: #ffffff;
+}
+
+.transDiv {
+  height: 80% !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quando&display=swap");
+
+.quando {
+  font-family: "Quando", serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+
+.ramaraja {
+  font-family: "Ramaraja", serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+}
+
+input.form-control {
+  background-color: #e5e5e5;
+}
