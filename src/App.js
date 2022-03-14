@@ -1,5 +1,5 @@
 // CSS Global Import
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles/global.css"
 
 // Pages Imports

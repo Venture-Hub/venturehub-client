@@ -13,13 +13,12 @@ function Listing({ data, title }) {
             <img src={FILTER} alt="lets filter" className="h-8" />
           </div>
 
-
           {/* Card Box */}
           <div className="mt-16">
             {data.map(element => (
               <div className=" my-3 flex flex-row gap-2 bg-[#C4C4C4] rounded-md">
                 <div className='flex items-center m-2'>
-                  <img src={element.icon} alt="company" className='h-34 rounded-full border' />
+                  <img src={element.icon} alt="company" className='h-24 rounded-full border' />
                 </div>
                 <div className="flex flex-col p-2 rounded-lg">
                   <h3 className='text-lg font-semibold'>{element.name}</h3>

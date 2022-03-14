@@ -9,71 +9,71 @@ function Register() {
     <div className="gradient">
       <div className="m-2 flexCenter m-full h-full">
         {/* Right Screen */}
-        <div className="col-6 transDiv m-2 flex flex-col justify-center items-center text-center">
+        <div className="p-5 w-2/5 transDiv m-2 flex flex-col justify-center items-center text-center">
           <img className="logo my-3" src={LOGO} alt="Website Logo" />
           <h1 className="quando mb-4 text-3xl">Register</h1>
 
-          <form>
-            <div class="form-group row my-3">
+          <form className="w-4/5">
+            <div class="flex flex-row justify-between my-5">
               <label for="staticName" class="col-4 col-form-label playfair">
                 Name
               </label>
               <div class="col-6">
                 <input
                   type="text"
-                  class="form-control"
+                  className="p-2 rounded-lg"
                   id="inputName"
                   placeholder="Name"
                 />
               </div>
             </div>
-            <div class="form-group row my-3">
+            <div class="flex flex-row justify-between my-5">
               <label for="staticPhone" class="col-4 col-form-label playfair">
                 Phone
               </label>
               <div class="col-6">
                 <input
                   type="text"
-                  class="form-control"
+                  className="p-2 rounded-lg"
                   id="inputPhone"
                   placeholder="Phone"
                 />
               </div>
             </div>
-            <div class="form-group row my-3">
+            <div class="flex flex-row justify-between my-5">
               <label for="staticEmail" class="col-4 col-form-label playfair">
                 Email
               </label>
               <div class="col-6">
                 <input
                   type="text"
-                  class="form-control"
+                  className="p-2 rounded-lg"
                   id="inputEmail"
                   placeholder="Email"
                 />
               </div>
             </div>
-            <div class="form-group row my-3">
+            <div class="flex flex-row justify-between my-5">
               <label for="inputPassword" class="col-4 col-form-label playfair">
                 Password:
               </label>
               <div class="col-6">
                 <input
                   type="password"
-                  class="form-control"
+                  className="p-2 rounded-lg"
                   id="inputPassword"
                   placeholder="Password"
                 />
               </div>
             </div>
-            <div class="form-group row my-3">
+            <div class="flex flex-row justify-between my-5">
               <label for="inputPassword" class="col-4 col-form-label playfair">
                 Confirm Password:
               </label>
               <div class="col-6">
                 <input
                   type="password"
-                  class="form-control"
+                  className="p-2 rounded-lg"
                   id="inputPassword"
                   placeholder="Password"
                 />
@@ -87,7 +87,7 @@ function Register() {
                   Register
                 </button>
               </div>
-              <div className="col-6 flex-col justify-content-center text-center">
+              <div className="w-2/4 flex flex-col justify-center items-center">
                 <Link to="/login">
                   <p className="playfair">Have an account?</p>
                 </Link>

@@ -22,28 +22,28 @@ function Login() {
             <img className="h-12 m-2" src={LOGO} alt="Website Logo" />
             <h1 className="quando text-3xl mb-5">Login</h1>
 
-            <form>
-              <div class="form-group row my-3">
+            <form className="w-4/6">
+              <div class="flex flex-row justify-between my-5">
                 <label for="staticEmail" class="col-4 col-form-label playfair">
                   Email
                 </label>
                 <div class="col-6">
                   <input
+                    className="p-2 rounded-lg"
                     type="text"
-                    class="form-control"
                     id="inputEmail"
                     placeholder="Email"
                   />
                 </div>
               </div>
-              <div class="form-group row my-3">
+              <div class="flex flex-row justify-between my-5">
                 <label for="inputPassword" class="col-4 col-form-label playfair">
-                  Password:
+                  Password
                 </label>
                 <div class="col-6">
                   <input
+                    className="p-2 rounded-lg"
                     type="password"
-                    class="form-control"
                     id="inputPassword"
                     placeholder="Password"
                   />
