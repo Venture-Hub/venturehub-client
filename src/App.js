@@ -11,7 +11,7 @@ import Landing from "./pages/Landing"
 import ForgotPassword from "./pages/ForgotPassword"
 
 // Component Imports
-import Navbar from "./components/Navbar"
+// import Navbar from "./components/Navbar"
 
 
 // Routing Imports
@@ -21,6 +21,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import ProblemStatements from './pages/ProblemStatements';
+import Companies from './pages/Companies';
+import Investor from './pages/Investor';
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/feed" element={<Feed />} />
+        <Route path="/investors" element={<Investor />} />
+        <Route path="/problem-statements" element={<ProblemStatements />} />
+        <Route path="/companies" element={<Companies />} />
         <Route path="/register" element={<Register />} />
         <Route path="/" element={<Landing />} />
       </Routes>

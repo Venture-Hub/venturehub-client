@@ -1,24 +1,7 @@
 .landingBox {
   background-color: rgba(122, 96, 179, 1);
-  border-radius: 20px;
+  /* border-radius: 20px; */
   height: 80vh;
   padding: 3%;
   width: 70%;
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-}
-
-.bottom-div {
-  display: flex;
-  flex-direction: col;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.illustrationShift {
-  position: inherit;
 }

@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Meie+Script&display=swap");
 
-.hFull {
-  height: 100%;
-}
 
 .tagline {
   font-family: "Meie Script";
@@ -18,9 +15,6 @@ label {
   color: #ffffff;
 }
 
-.transDiv {
-  height: 80% !important;
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Quando&display=swap");
 
@@ -38,12 +32,6 @@ label {
 
 .playfair {
   font-family: 'Playfair Display', serif;
-}
-
-.heading {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 80px;
 }
 
 input.form-control {

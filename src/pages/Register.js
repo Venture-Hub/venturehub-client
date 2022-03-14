@@ -1,16 +1,17 @@
 import React from "react";
 import "../styles/global.css";
 import "../styles/login.css";
+import { Link } from "react-router-dom";
 import LOGO from "../images/LOGO.svg";
 
 function Register() {
   return (
     <div className="gradient">
-      <div className="container flexCenter hFull">
+      <div className="m-2 flexCenter m-full h-full">
         {/* Right Screen */}
-        <div className="col-6 transDiv container text-center">
+        <div className="col-6 transDiv m-2 flex flex-col justify-center items-center text-center">
           <img className="logo my-3" src={LOGO} alt="Website Logo" />
-          <h1 className="quando mb-4">Register</h1>
+          <h1 className="quando mb-4 text-3xl">Register</h1>
 
           <form>
             <div class="form-group row my-3">
@@ -87,8 +88,12 @@ function Register() {
                 </button>
               </div>
               <div className="col-6 flex-col justify-content-center text-center">
-                <p className="playfair">Not a user?</p>
-                <p className="playfair">Create an Account</p>
+                <Link to="/login">
+                  <p className="playfair">Have an account?</p>
+                </Link>
+                <Link to="/login">
+                  <p className="playfair">Login</p>
+                </Link>
               </div>
             </div>
           </form>

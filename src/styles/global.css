@@ -1,14 +1,15 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 .gradient {
-  background: #fc5c7d;
-  background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb);
-  background: linear-gradient(to right, #fc5c7d, #6a82fb);
+  background: linear-gradient(
+      180deg,
+      rgba(105, 0, 114, 0.3) 0%,
+      rgba(110, 19, 118, 0) 100%
+    ),
+    linear-gradient(180deg, rgba(166, 49, 207, 0) 0%, #263899 84.25%);
   height: 100vh;
 }
 
@@ -21,7 +22,7 @@ body {
 .transButton {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;  
+  border-radius: 20px;
   color: rgba(255, 255, 255, 0.84);
   border: none;
   padding: 10px 20px;
@@ -35,6 +36,3 @@ body {
   border-radius: 20px;
 }
 
-.hFull {
-  height: 100%;
-}
