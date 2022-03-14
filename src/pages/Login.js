@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Login() {
   return (
     <div className="gradient">
-      <div className="m-2 flexCenter h-full">
+      <div className="flexCenter h-full">
 
         {/* Left Screen */}
         <div className="w-3/6 flex flex-col justify-center items-center text-center">

@@ -7,7 +7,7 @@ import LOGO from "../images/LOGO.svg";
 function Register() {
   return (
     <div className="gradient">
-      <div className="m-2 flexCenter m-full h-full">
+      <div className="flexCenter m-full h-full">
         {/* Right Screen */}
         <div className="p-5 w-2/5 transDiv m-2 flex flex-col justify-center items-center text-center">
           <img className="logo my-3" src={LOGO} alt="Website Logo" />
