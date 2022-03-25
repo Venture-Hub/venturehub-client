@@ -14,8 +14,6 @@ import ForgotPassword from "./pages/ForgotPassword"
 // import Navbar from "./components/Navbar"
 
 
-// Routing Imports
-import { render } from "react-dom";
 import {
   BrowserRouter,
   Routes,
@@ -23,7 +21,8 @@ import {
 } from "react-router-dom";
 import ProblemStatements from './pages/ProblemStatements';
 import Companies from './pages/Companies';
-import Investor from './pages/Investor';
+import Investors from './pages/Investors';
+import Mentors from "./pages/Mentors"
 
 function App() {
   return (
@@ -33,7 +32,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/feed" element={<Feed />} />
-        <Route path="/investors" element={<Investor />} />
+        <Route path="/investors" element={<Investors />} />
+        <Route path="/mentors" element={<Mentors />} />
         <Route path="/problem-statements" element={<ProblemStatements />} />
         <Route path="/companies" element={<Companies />} />
         <Route path="/register" element={<Register />} />

@@ -1,11 +1,11 @@
 import React from 'react'
 import FILTER from "../images/filter.png"
-import company from "../images/company.jpeg"
+// import company from "../images/company.jpeg"
 
 function Listing({ data, title }) {
   return (
-    <div className="p-2">
-      <div className='p-2 w-4/5 mx-auto' style={{ backgroundColor: "rgba(196, 196, 196, 0.13)" }}>
+    <div className="p-2" >
+      <div className='p-2 mx-auto' style={{ backgroundColor: "rgba(196, 196, 196, 0.13)" }}>
         {/* Navbar */}
         <div className="m-2">
           <div className="p-2 bg-white border flex flex-row justify-between items-center">

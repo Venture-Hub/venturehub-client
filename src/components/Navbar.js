@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon from "../images/LOGO.svg"
-import search from "../images/search.png"
+// import search from "../images/search.png"
 import { Link } from "react-router-dom";
 
 function Navbar() {

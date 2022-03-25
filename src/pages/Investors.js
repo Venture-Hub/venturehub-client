@@ -3,7 +3,7 @@ import Listing from '../components/Listing'
 import Navbar from '../components/Navbar'
 import SideBar from '../components/SideBar'
 
-function ProblemStatement() {
+function Investors() {
 
   const data = [
     {
@@ -43,10 +43,10 @@ function ProblemStatement() {
       <Navbar />
       <div className='flex flex-row'>
         <SideBar />
-        <Listing title="Problem Statement" data={data} />
+        <Listing title="Investor" data={data} />
       </div>
     </div>
   )
 }
 
-export default ProblemStatement
+export default Investors

@@ -1,8 +1,9 @@
 import React from 'react'
 import Listing from '../components/Listing'
 import Navbar from '../components/Navbar'
+import SideBar from '../components/SideBar'
 
-function Investor() {
+function Mentors() {
 
   const data = [
     {
@@ -40,9 +41,12 @@ function Investor() {
   return (
     <div>
       <Navbar />
-      <Listing title="Investor" data={data} />
+      <div className='flex flex-row'>
+        <SideBar />
+        <Listing title="Mentors" data={data} />
+      </div>
     </div>
   )
 }
 
-export default Investor
+export default Mentors
