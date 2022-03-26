@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.a6ffeb11.css",
+    "main.js": "/react-gh-pages/static/js/main.d53cf562.js",
+    "static/media/user1.png": "/react-gh-pages/static/media/user1.5cbf1a0c9d5181f7bc18.png",
+    "static/media/landing.png": "/react-gh-pages/static/media/landing.d4b881ffa35bb826c976.png",
+    "static/media/LOGO.svg": "/react-gh-pages/static/media/LOGO.28c4acb7a27c96dcae7f92332bd3fe1b.svg",
+    "static/media/nav-mentor.svg": "/react-gh-pages/static/media/nav-mentor.7005dab93194055010328aeb221e1345.svg",
+    "static/media/nav-investors.svg": "/react-gh-pages/static/media/nav-investors.75bf3bbd89c6e33d5ede84bf5761d75d.svg",
+    "static/media/nav-prob.svg": "/react-gh-pages/static/media/nav-prob.f0cfd91ca103f4a62b217d3f7b2cba76.svg",
+    "static/media/nav-home.svg": "/react-gh-pages/static/media/nav-home.b44a91125a2daec1156398a1c926987a.svg",
+    "static/media/nav-company.svg": "/react-gh-pages/static/media/nav-company.b75ef4eb4e5eb30c458e0512226affd6.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/nav-profile.svg": "/react-gh-pages/static/media/nav-profile.26fbbc770b67649fd4a23cd553abe45c.svg",
+    "main.a6ffeb11.css.map": "/react-gh-pages/static/css/main.a6ffeb11.css.map",
+    "main.d53cf562.js.map": "/react-gh-pages/static/js/main.d53cf562.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6ffeb11.css",
+    "static/js/main.d53cf562.js"
+  ]
+}
