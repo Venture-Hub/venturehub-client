@@ -1,6 +1,7 @@
 import React from 'react'
 import Listing from '../components/Listing'
 import Navbar from '../components/Navbar'
+import SideBar from '../components/SideBar'
 
 function Companies() {
 
@@ -38,10 +39,13 @@ function Companies() {
   ]
 
   return (
-    <div>
-      <Navbar/>
-      <Listing title="Companies" data={data}/>
-    </div>
+    <>
+      <Navbar />
+      <div className='flex flex-row'>
+        <SideBar />
+        <Listing title="Companies" data={data} />
+      </div>
+    </>
   )
 }
 

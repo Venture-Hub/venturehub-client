@@ -4,7 +4,7 @@ import "./styles/global.css"
 
 // Pages Imports
 import Register from "./pages/Register"
-import About from "./pages/About"
+import Profile from "./pages/Profile"
 import Login from "./pages/Login"
 import Feed from "./pages/Feed"
 import Landing from "./pages/Landing"
@@ -19,6 +19,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+
 import ProblemStatements from './pages/ProblemStatements';
 import Companies from './pages/Companies';
 import Investors from './pages/Investors';
@@ -30,7 +31,7 @@ function App() {
       <Routes>
         <Route path="/login/forgot-password" element={<ForgotPassword />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/feed" element={<Feed />} />
         <Route path="/investors" element={<Investors />} />
         <Route path="/mentors" element={<Mentors />} />

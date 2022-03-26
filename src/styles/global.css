@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .gradient {
   background: linear-gradient(
       180deg,
@@ -36,3 +35,22 @@
   border-radius: 20px;
 }
 
+.listingCard {
+  background: linear-gradient(
+    180deg,
+    rgba(150, 106, 242, 0.5) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+  filter: drop-shadow(4px 8px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.25);
+}
+
+.listingTile {
+  background: linear-gradient(
+    180deg,
+    rgba(105, 0, 114, 0.5) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+  filter: drop-shadow(4px 8px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.25);
+}

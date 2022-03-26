@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 import companyIcon from "../images/nav/nav-company.svg"
 import homeIcon from "../images/nav/nav-home.svg"
 import investorsIcon from "../images/nav/nav-investors.svg"
-import mentorsIcon from "../images/nav/nav-mentors.svg"
+import mentorIcon from "../images/nav/nav-mentor.svg"
+import probIcon from "../images/nav/nav-prob.svg"
 import profileIcon from "../images/nav/nav-profile.svg"
 
 function SideBar() {
@@ -14,17 +15,20 @@ function SideBar() {
       <Link to="/feed"> 
         <img className='h-14 my-3 p-1' src={homeIcon} alt="nav icon" />
       </Link>
-      <Link to="/mentors"> 
-        <img className='h-14 my-3 p-1' src={mentorsIcon} alt="nav icon" />
+      <Link to="/problem-statements"> 
+        <img className='h-14 my-3 p-1' src={probIcon} alt="nav icon" />
       </Link>
       <Link to="/investors"> 
         <img className='h-14 my-3 p-1' src={investorsIcon} alt="nav icon" />
       </Link>
-      <Link to="/company"> 
+      <Link to="/companies"> 
         <img className='h-14 my-3 p-1' src={companyIcon} alt="nav icon" />
       </Link>
       <Link to="/profile"> 
         <img className='h-14 my-3 p-1' src={profileIcon} alt="nav icon" />
+      </Link>
+      <Link to="/mentors"> 
+        <img className='h-14 my-3 p-1' src={mentorIcon} alt="nav icon" />
       </Link>
     </div>
   )

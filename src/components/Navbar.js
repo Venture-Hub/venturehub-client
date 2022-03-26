@@ -2,6 +2,7 @@ import React from 'react'
 import Icon from "../images/LOGO.svg"
 // import search from "../images/search.png"
 import { Link } from "react-router-dom";
+import logoutIcon from "../images/util/logout.png"
 
 function Navbar() {
   return (
@@ -12,17 +13,17 @@ function Navbar() {
         </Link>
       </div>
       <div className='w-5/6 relative'>
-
         <form action="">
-          <input type="text" className='h-8 w-4/6 rounded-lg focus:border-none' />
+          <input placeholder='Search Founders, Mentors and Investors' type="text" className='h-8 w-4/6 rounded-lg focus:border-none p-2' />
           {/* <span className='h-6 absolute m-1 inset-y-0'>
             <button type="submit">
               <img src={search} alt="search" />
             </button>
           </span> */}
         </form>
-
-
+      </div>
+      <div>
+        <img src={logoutIcon} alt="signoff" />
       </div>
     </nav>
   )
