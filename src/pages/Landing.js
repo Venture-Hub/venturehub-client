@@ -17,12 +17,10 @@ function Landing() {
         <div className="flex flex-row content-center items-center h-5/6">
           {/* Left div */}
           <div className="w-2/4 mx-14">
-            <h2 className="text-2xl text-white">Lorem ipsum dolor sit amet</h2>
+            <h2 className="text-2xl text-white">From Idea to Reality</h2>
             <div className="my-4">
               <p className="text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                sunt facere corporis quis. Quidem, alias. Ullam perspiciatis ut
-                reprehenderit sunt.
+                An Integrated platform for the entrepreneurs so that they could get a startup environment, get mentorship and pitch their ideas in front of the investors to raise funding for their venture.
               </p>
             </div>
             <div className="flexCenter">

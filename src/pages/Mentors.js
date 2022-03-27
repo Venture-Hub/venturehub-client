@@ -29,7 +29,7 @@ function Mentors() {
               <div className="listingCard h-52 w-1/4 rounded-xl flex items-center p-4">
                 <img src={ProfilePic} alt="user" className='h-28' />
                 <div className='p-4'>
-                  <h1 className='text-xl text-black py-2'>John Brown</h1>
+                  <h1 className='text-xl text-black py-2'>Abhishek Srivastava</h1>
                   <h1 className='text-xs text-black'>Song Entertainments</h1>
                   <h1 className='text-xs text-black'>Finance</h1>
                 </div>
@@ -37,7 +37,7 @@ function Mentors() {
               <div className="listingCard h-52 w-1/4 rounded-xl flex items-center p-4">
                 <img src={ProfilePic} alt="user" className='h-28' />
                 <div className='p-4'>
-                  <h1 className='text-xl text-black py-2'>John Brown</h1>
+                  <h1 className='text-xl text-black py-2'>Khush Agrawal</h1>
                   <h1 className='text-xs text-black'>Song Entertainments</h1>
                   <h1 className='text-xs text-black'>Finance</h1>
                 </div>
@@ -45,7 +45,7 @@ function Mentors() {
               <div className="listingCard h-52 w-1/4 rounded-xl flex items-center p-4">
                 <img src={ProfilePic} alt="user" className='h-28' />
                 <div className='p-4'>
-                  <h1 className='text-xl text-black py-2'>John Brown</h1>
+                  <h1 className='text-xl text-black py-2'>Nishant Mishra</h1>
                   <h1 className='text-xs text-black'>Song Entertainments</h1>
                   <h1 className='text-xs text-black'>Finance</h1>
                 </div>
@@ -56,7 +56,7 @@ function Mentors() {
               <div className="listingCard h-52 w-1/4 rounded-xl flex items-center p-4">
                 <img src={ProfilePic} alt="user" className='h-28' />
                 <div className='p-4'>
-                  <h1 className='text-xl text-black py-2'>John Brown</h1>
+                  <h1 className='text-xl text-black py-2'>Ankit Kumar</h1>
                   <h1 className='text-xs text-black'>Song Entertainments</h1>
                   <h1 className='text-xs text-black'>Finance</h1>
                 </div>
@@ -64,7 +64,7 @@ function Mentors() {
               <div className="listingCard h-52 w-1/4 rounded-xl flex items-center p-4">
                 <img src={ProfilePic} alt="user" className='h-28' />
                 <div className='p-4'>
-                  <h1 className='text-xl text-black py-2'>John Brown</h1>
+                  <h1 className='text-xl text-black py-2'>Ayushi hota</h1>
                   <h1 className='text-xs text-black'>Song Entertainments</h1>
                   <h1 className='text-xs text-black'>Finance</h1>
                 </div>
@@ -72,12 +72,13 @@ function Mentors() {
               <div className="listingCard h-52 w-1/4 rounded-xl flex items-center p-4">
                 <img src={ProfilePic} alt="user" className='h-28' />
                 <div className='p-4'>
-                  <h1 className='text-xl text-black py-2'>John Brown</h1>
+                  <h1 className='text-xl text-black py-2'>Harshit ruwali</h1>
                   <h1 className='text-xs text-black'>Song Entertainments</h1>
                   <h1 className='text-xs text-black'>Finance</h1>
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       </div>

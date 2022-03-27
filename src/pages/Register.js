@@ -83,9 +83,12 @@ function Register() {
             {/* Buttons */}
             <div className="flexCenter mt-5">
               <div className="col-6">
-                <button className="transButton my-3 px-4 quando">
-                  Register
-                </button>
+
+                <Link to="/feed">
+                  <button className="transButton my-3 px-4 quando">
+                    Register
+                  </button>
+                </Link>
               </div>
               <div className="w-2/4 flex flex-col justify-center items-center">
                 <Link to="/login">

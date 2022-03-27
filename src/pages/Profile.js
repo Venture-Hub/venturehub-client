@@ -49,7 +49,8 @@ function Profile() {
                   <p className='text-gray-600 text-lg'>sample@gmail.com</p>
                 </div>
                 <div className='m-3'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ... read more
+                  I'm John 21 years old Computer Engineering student at Modern Academy for Engineering, Beta Microsoft Learn Student Ambassador, Google Developer Groups Cloud Egypt Co-organizer, Full-Stack Developer Nanodegree Graduate.
+                  Recently, I developed an interest in Machine Learning and Google Apps Script.
                 </div>
               </div>
             </div>
