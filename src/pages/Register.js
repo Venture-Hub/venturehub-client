@@ -84,7 +84,7 @@ function Register() {
             <div className="flexCenter mt-5">
               <div className="col-6">
 
-                <Link to="/feed">
+                <Link to="/profile">
                   <button className="transButton my-3 px-4 quando">
                     Register
                   </button>

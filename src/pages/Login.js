@@ -50,7 +50,7 @@ function Login() {
                 </div>
               </div>
 
-              <Link to="/feed">
+              <Link to="/profile">
                 <button className="transButton my-5 px-5 quando">
                   Login
                 </button>
