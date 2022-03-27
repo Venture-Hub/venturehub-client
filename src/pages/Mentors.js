@@ -1,5 +1,4 @@
 import React from 'react'
-import Listing from '../components/Listing'
 import Navbar from '../components/Navbar'
 import SideBar from '../components/SideBar'
 import FILTER from "../images/filter.png"

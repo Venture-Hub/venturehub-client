@@ -50,9 +50,11 @@ function Login() {
                 </div>
               </div>
 
-              <button className="transButton my-5 px-5 quando">
-                Login
-              </button>
+              <Link to="/feed">
+                <button className="transButton my-5 px-5 quando">
+                  Login
+                </button>
+              </Link>
             </form>
 
 
